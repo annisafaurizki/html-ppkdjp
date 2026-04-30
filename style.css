@@ -1,0 +1,75 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+.parallax {
+    backgorund-position: center;
+    background-repeat: no-repeat;
+    backgorund-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.bg-1{
+    background-image: url(assets/simon-twukN12EN7c-unsplash.jpg);
+}
+
+.bg-2{
+    background-image: url(assets/aaron-burden-zpK28VGxkJw-unsplash.jpg);
+}
+.content{
+    background-color: rgba(0,0,0, 0.2);
+    color: #f3f5ec;
+    padding: 40px;
+    border-radius: 10px;
+    width:50%;
+}
+
+.content h1{
+    font-size: 3rem;
+    margin: 0;
+   
+
+}
+
+.normal-section{
+    padding: 80px 20px;
+    backgorund-color: white;
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    
+}
+
+.btn-contact{
+    padding: 12px 25px;
+    background-color: #007bff;
+    color:white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0; 
+}

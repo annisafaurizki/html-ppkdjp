@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Peserta </title>
+
+    <!--
+    css : cascading style sheet
+    css : internal, external, inline
+    Internal css: css nya ada didalam file yang sama
+    External css: css nya ada di file exe.css
+    Inline css : css nya ada dibaris yang sama dengan kodenya
+
+    -->
+
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(225, 210, 239);
+            font-size: medium;
+            
+
+        }
+        h2{
+            color: rgb(95, 75, 141);
+            font-size: 30px;
+           
+        
+        }
+        .form-group{
+            margin-bottom: 12px;
+   
+            
+
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type='text'],
+        input[type='email'],
+        input[type= 'number']{
+            width: 50%;
+            padding: 12px 15px;
+            font-style: italic;
+            border-radius: 10px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+            
+        }
+        input:focus{
+            border-color: yellow
+            ;
+        }
+       .btn-submit, .btn-reset{
+        width: 50%;
+        
+        padding: 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s;
+        
+        
+       }
+
+       .btn-submit{
+        background-color: #007bff;
+        color: white;
+        margin-top: 10px;
+       }
+       .btn-reset{
+        background-color: #eee;
+        color: gray;
+        
+       }
+       
+       .btn-submit:hover{
+        background-color: #0056b3;
+       }
+       .btn-reset:hover{
+        background-color: gainsboro;
+       }
+        
+    </style>
+</head>
+<body>
+    <h2>Pendaftaran Siswa</h2>
+    <p>Silahkan isi data diri anda</p>
+
+    <form method="post" action="3.html">
+        <div class="form-group">
+            <label for="nama">Nama : </label>
+            <input type="text" placeholder="Masukkan Nama" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email : </label>
+            <input type="email" placeholder="admin@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="nama">No.Telp : </label>
+            <input type="number" placeholder="08445545" required>
+        </div>
+        <div>
+            <input type="reset"class="btn-reset" value="Batal">
+            <input type="submit" class="btn-submit" value="Simpan">
+        
+        </div>
+    </form>
+</body>
+</html>

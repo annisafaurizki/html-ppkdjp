@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Peserta</title>
+
+    <style>
+      body {
+        font-family:
+          "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        background-color: rgb(225, 210, 239);
+        font-size: medium;
+      }
+      .card-table {
+        background-color: beige;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 0 5px purple;
+        width: 50%;
+        max-width: 800%;
+        margin: 50px auto;
+      }
+      h2,
+      p {
+        text-align: center;
+      }
+      .table {
+        width: 100%;
+        border-collapse: collapse; /*menghilangkan border kecil di table*/
+        margin-top: 20px;
+        font-size: 15px;
+        justify-self: center;
+      }
+      .table thead tr {
+        background-color: gainsboro;
+        color: black;
+        text-align: center;
+      }
+      .table th,
+      .table td {
+        border: 1px solid black;
+        padding: 12px 15px;
+        text-align: center;
+      }
+      .btn-plus {
+        text-align: right;
+      }
+      .btn-tambah {
+        display: inline-block;
+        
+        padding: 10px;
+        background-color: gainsboro;
+        color:black;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        transition: background 0.3s;
+      }
+
+      .btn-tambah:hover {
+        background-color: rgb(116, 80, 116);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-table">
+      <h2>Data Peserta</h2>
+      <p>Data berikut adalah data peserta</p>
+      <div class="btn-plus">
+        <a href="2.html" class="btn-tambah"> + Tambah Peserta</a>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>No Telp</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Annisa Faurizki</td>
+            <td>annisa@gmail.com</td>
+            <td>08999999999</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Riska Aulia</td>
+            <td>Rizk44@gmail.com</td>
+            <td>08999999999</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Fidya Aminah</td>
+            <td>FidyaAmii@gmail.com</td>
+            <td>08999999999</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Rizki Maulana</td>
+            <td>rzkmaul@gmail.com</td>
+            <td>08999999999</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
