@@ -1,75 +1,114 @@
 body,
 html {
-    height: 100%;
-    margin: 0;
-    color: #333;
-    line-height: 1.6;
-    
+  height: 100%;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
 }
 
 .parallax {
-    backgorund-position: center;
-    background-repeat: no-repeat;
-    backgorund-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+  backgorund-position: center;
+  background-repeat: no-repeat;
+  backgorund-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.bg-1{
-    background-image: url(assets/simon-twukN12EN7c-unsplash.jpg);
+.bg-1 {
+  background-image: url(assets/simon-twukN12EN7c-unsplash.jpg);
 }
 
-.bg-2{
-    background-image: url(assets/aaron-burden-zpK28VGxkJw-unsplash.jpg);
+.bg-2 {
+  background-image: url(assets/aaron-burden-zpK28VGxkJw-unsplash.jpg);
 }
-.content{
-    background-color: rgba(0,0,0, 0.2);
-    color: #f3f5ec;
-    padding: 40px;
-    border-radius: 10px;
-    width:50%;
-}
-
-.content h1{
-    font-size: 3rem;
-    margin: 0;
-   
-
+.content {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f3f5ec;
+  padding: 40px;
+  border-radius: 10px;
+  width: 50%;
 }
 
-.normal-section{
-    padding: 80px 20px;
-    backgorund-color: white;
-    text-align: center;
+.content h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
-.container{
-    max-width: 800px;
-    margin: 0 auto;
+.normal-section {
+  padding: 80px 20px;
+  backgorund-color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h2 {
-    font-size: 2rem;
-    
+  font-size: 2rem;
 }
 
-.btn-contact{
-    padding: 12px 25px;
-    background-color: #007bff;
-    color:white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 20px;
+.btn-contact {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-footer{
-    background-color: #333;
-    text-align: center;
-    padding: 20px 0; 
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+}
+.contact-form input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  bordr-radius: 5px;
+}
+.contact-form button {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer; /* Menambahkan kursor pointer untuk menunjukkan bahwa tombol dapat diklik */
+  font-weight: bold;
+  margin-top: 20px;
+}
+/*skill*/
+.wraper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.skill-wraper{
+    background-color: #f3f5ec;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    width: 225px;
+}
+.skill-wraper h3 {
+    margin: 0;
+    color:#333;
+    font-size: 1.5rem;
+}
+.skill-wraper p {
+    padding-left: 20px;
 }

@@ -1,42 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portofolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section class="parallax bg-1">
-        <div class="content">
-            <h1>Halo, Saya Annisa Faurizki</h1>
-            <p>Siswa Jurusan Web Programming</p>
-        </div>
+      <div class="content">
+        <h1>Halo, Saya Annisa Faurizki</h1>
+        <p>Siswa Jurusan Web Programming</p>
+      </div>
     </section>
     <section class="normal-section">
-        <div class="container">
-            <h2>Tentang Saya </h2>
-            <p>Saya mahasiswi Sistem Informasi yang sedang mengikuti pelatihan </p>
-            <p>di ppkd jakarta pusat jurusan web programming</p>
-        </div>
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <p>Saya mahasiswi Sistem Informasi yang sedang mengikuti pelatihan</p>
+        <p>di ppkd jakarta pusat jurusan web programming</p>
+      </div>
     </section>
-    <Section class="parallax bg-2">
-        <div class="content">
-            <h2>Keahlian saya</h2>
-            <P>Membuat website, membuat aplikasi mobile, membuat kue </P>
+    <section class="parallax bg-2">
+      <div class="content">
+        <h2>Keahlian saya</h2>
+       <div class="wraper">
+        <div class="skill-wraper">
+            <h3>Skill</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
         </div>
-    </Section>
+        <div  class="skill-wraper">
+        <h3>Experience</h3>
+            <ul>
+                <li>Pelatihan Web Programming di PPKD Jakarta Pusat</li>
+                <li>Mahasiswa Sistem Informasi</li>
+                <li>Menang Website Award</li>
+                <li>Juara Dunia Komputer 2026</li>
+            </ul>
+       </div>
+       </div>
+       
+      </div>
+    </section>
     <section class="normal-section">
-        <div class="container">
-            <h2>Hubungi Saya </h2>
-            <p>Tertarik bekerja sama? Hubungi saya melalui email dibawah ini </p>
-            <button class="btn-contact">Kirim Pesan</button>
-           
-        </div>
+      <div class="container">
+        <h2>Hubungi Saya</h2>
+        <p>Tertarik bekerja sama? Hubungi saya melalui email dibawah ini</p>
+        <form action="" method="post" class="contact-form">
+          <input type="text" name="name" placeholder="Isi Nama Anda" />
+          <input type="email" name="email" placeholder="Isi Email Anda" />
+          <textarea name="message" cols="30" rows="10 "></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
     </section>
     <footer>
-        <p>&copy; 2026 Personal Brand. Dibuat di PPKD Jakarta Pusat</p>
+      <p>&copy; 2026 Personal Brand. Dibuat di PPKD Jakarta Pusat</p>
     </footer>
-
-</body>
+  </body>
 </html>
