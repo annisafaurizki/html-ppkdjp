@@ -27,7 +27,7 @@ html {
 }
 .content {
   background-color: rgba(0, 0, 0, 0.2);
-  color: #f3f5ec;
+  color: #ffffff;
   padding: 40px;
   border-radius: 10px;
   width: 50%;
@@ -40,13 +40,14 @@ html {
 
 .normal-section {
   padding: 80px 20px;
-  backgorund-color: white;
+ background-color: #bfe2f8;
   text-align: center;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+  
 }
 
 h2 {
@@ -71,7 +72,7 @@ footer {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 10;
+  gap: 10px;
 }
 .contact-form input,
 textarea {
@@ -87,6 +88,9 @@ textarea {
   cursor: pointer; /* Menambahkan kursor pointer untuk menunjukkan bahwa tombol dapat diklik */
   font-weight: bold;
   margin-top: 20px;
+  border-radius: 10px;
+width: 100px;
+  align-self: center; /* Mengatur tombol agar berada di tengah */
 }
 /*skill*/
 .wraper {
@@ -108,7 +112,25 @@ textarea {
     margin: 0;
     color:#333;
     font-size: 1.5rem;
+    text-align: center;
 }
 .skill-wraper p {
     padding-left: 20px;
+}
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.blackpink {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+  border: 2px solid #FFEF9F;
+
 }
