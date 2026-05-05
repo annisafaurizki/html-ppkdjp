@@ -4,6 +4,7 @@ html {
   margin: 0;
   color: #333;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 .parallax {
@@ -132,5 +133,82 @@ width: 100px;
   object-fit: cover;
   margin-top: 20px;
   border: 2px solid #FFEF9F;
+  transition: transform 0.3s;
+}
 
+.blackpink img {
+  
+}
+.blackpink :hover{
+  transform: scale(1.1);
+}
+.navbar {
+  background-color: #c4d8e8;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+   text-decoration: none;
+   margin: 0;
+
+  
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+ font-weight: bold;
+ margin-top: 20px;
+ color: #333;
+ transition: white 0.3s ease;
+
+}
+nav a:hover {
+  color: #007bff;
+
+}
+.logo {
+  color: #0d0c0c;
+  
+}
+.nav-container {
+  align-items: center;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+/* burger menu */
+
+#menu {
+  display: flex;
+  gap: 15px;
+
+}
+.nav-container button {
+display: none;
+ 
+}
+/* ukuran tablet */
+@media(max-width: 768px) {
+  .nav-container button {
+display: block;
+}
+#menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  background-color: #c4d8e8;
+
+}
+#menu a {
+  padding: 10px;
+
+  }
+
+  #menu.show {
+    display: flex;
+  }
 }
