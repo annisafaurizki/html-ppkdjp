@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #0058be;
+  --surface-color: #f7f9fb;
+  --on-surface-color: #424754;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: var(--surface-color);
+  color: #191c1e;
+}
+
+.navbar-custom {
+  background-color: rgba(247, 249, 251, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #c2c6d6;
+}
+
+.nav-link-custom {
+  font-weight: 500;
+  color: var(--on-surface-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-link-custom:hover,
+.nav-link.active {
+  color: var(--primary-color);
+}
